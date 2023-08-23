@@ -4,7 +4,27 @@
 
 #include "function.h"
 
+
 int main(void){
+
+
+// 自分自身
+struct param you =
+{
+    "Taro",
+    100,
+    100,
+    100
+};
+// 敵
+struct param enemy =
+{
+    "Hidora",
+    1000,
+    100,
+    50
+};
+
     
     printf("%s appears!\n", enemy.name);
     
