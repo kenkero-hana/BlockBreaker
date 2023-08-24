@@ -30,9 +30,9 @@ struct param enemy =
     
     for( ; ; ){
         int command;
-        printf("%s: Life:%d, attack:%d, Defense:%d\n", you.name, you.life, you.attack, you.defense);
-        printf("%s: Life:%d, attack:%d, Defense:%d\n", enemy.name, enemy.life, enemy.attack, enemy.defense);
-        printf("(0) Attack\n(1) Boost\n(2) Heal\n");
+        printf("%s: 体力:%d, 攻撃力:%d, 防御力:%d\n", you.name, you.life, you.attack, you.defense);
+        printf("%s: 体力:%d, 攻撃力:%d, 防御力:%d\n", enemy.name, enemy.life, enemy.attack, enemy.defense);
+        printf("(0) 攻撃\n(1) 力だめ\n(2) 回復\n");
         printf("Command:");
         scanf("%d", &command);
         act(&you, &enemy, command);
