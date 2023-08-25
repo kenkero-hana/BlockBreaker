@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #include "function.h"
-
+// ユーザー
 void act(struct param* actor, struct param* target, int command){
     int point;
     switch (command)
